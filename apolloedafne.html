@@ -5,26 +5,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="demo-styles.css">
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
-    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-    <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
-    <script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
-    <script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>
-    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-
   </head> 
 <body>
   <div id="card">
     <model-viewer src="asset/apollo_dafne.glb"
                   ios-src="asset/apollo_dafne.usdz"
-                  alt="Cavallo"
+                  alt="ApolloeDafne"
                   shadow-intensity="1"
                   camera-controls
                   interaction-prompt="auto"
                   auto-rotate ar magic-leap>
     </model-viewer>
+    <button onclick="Indietro()">Indietro</button>
     <section class="attribution">
       <span>
         <span><a href="https://www.itisothoca.edu.it" target="_blank">Othoca</a></span>
@@ -32,6 +25,6 @@
       </a>
     </section> 
   </div>
-  <button onclick="Indietro()">Indietro</button>
+
 </body>
 </html>
