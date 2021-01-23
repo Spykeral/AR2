@@ -8,8 +8,8 @@ function AeD(){
 function santat(){
       window.location.href = 'SantaTeresa.html';
     }
-function dea(){
-      window.location.href = 'dea.html';
+function estasi(){
+      window.location.href = 'estasi.html';
     }
 function Indietro(){
       window.location.href = 'index.html';
